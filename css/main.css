@@ -1,0 +1,512 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+.two-thirds-width {
+  width: 800px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 700px;
+  background-color: #ff0000;
+}
+
+#eric-patrick {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 28px 0 0 20px;
+  float: left;
+  margin-bottom: 0;
+}
+
+#eric-patrick-sub-head {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 23px;
+  margin: -5px 0 0 0;
+  font-weight: lighter;
+  float: left;
+  padding: 0 0 0 22px;
+}
+
+nav {
+  float: right;
+  padding: 60px 50px 40px 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 18px;
+  padding-left: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffff00;
+}
+
+header h3 {
+  padding-top: 175px;
+}
+
+#create {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  padding: 35px 0 0 -10px;
+  margin: auto 0;
+  text-transform: uppercase;
+}
+
+#tagline {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  clear: both;
+  margin: 30px 0 0 0;
+}
+
+.tagline-highlight {
+  color: #ffff00;
+  font-family: 'Pacifico', serif;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+/***** PARALLAX *****/
+
+#parallax {
+  height: 500px;
+  background-image: url("../img/workspace.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  width: 100%;
+}
+
+/***** ABOUT BANNER *****/
+
+#about-banner {
+  background: white;
+  height: 50px;
+  clear: both;
+}
+
+#about-banner h3 {
+  color: black;
+  margin: auto 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 60px 0 0 70px;
+}
+
+#about-underline {
+  border: 3px solid #ff0000;
+  width: 150px;
+  margin: 0 0 0 70px;
+
+}
+
+/***** ABOUT *****/
+
+#about {
+  height: 550px;
+}
+
+#about h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 20px 0;
+  text-align: center;
+  clear: both;
+  margin: -330px 0 0 0;
+}
+
+#about p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 24px;
+  margin: 90px 50px 15px 50px;
+  line-height: 40px;
+}
+
+#bmex {
+  font-family: 'Pacifico', sans-serif;
+  color: #ff0000;
+}
+
+.button {
+    background-color: #9b9b9b;
+    font-family: 'Work Sans', sans-serif;
+    border: 2px solid #9b9b9b;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 50px 0 0 465px;
+    outline-style: none;
+}
+
+#line {
+  width: 80%;
+}
+
+/***** SKILLS BANNER *****/
+
+#skills-banner {
+  background: #ffffff;
+  height: 110px;
+}
+
+#skills-banner h3 {
+  background: #ffffff;
+  color: #000000;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: auto 0;
+  padding: 60px 0 0 70px;
+  text-transform: uppercase;
+}
+
+#skills-underline {
+  border: 3px solid #ff0000;
+  margin: 0 0 0 70px;
+  width: 90px;
+}
+
+/****** SKILLS ******/
+
+#work {
+  height: 555px;
+  background: #ffffff;
+  text-align: center;
+  clear: both;
+}
+
+#work .full-width {
+  padding: 90px 0 80px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+  size: 30px;
+}
+
+#work h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  width: 220px;
+  margin: 0 auto;
+}
+
+#work p {
+  font-family: 'Work Sans', serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 35px;
+}
+
+/***** PARALLAX-ONE *****/
+
+#parallax-one {
+  height: 500px;
+  background-image: url("../img/design.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  width: 100%;
+}
+
+/***** PORTFOLIO BANNER *****/
+
+#featured-work-banner {
+  background: #ff0000;
+  height: 110px;
+  clear: both;
+}
+
+#featured-work-banner h3 {
+  background: #ff0000;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: auto 0;
+  padding: 60px 0 0 70px;
+  text-transform: uppercase;
+}
+
+#featured-work-underline {
+  border: 3px solid #ffff00;
+  margin: 0 0 0 71px;
+  width: 158px;
+}
+
+/***** PORTFOLIO ******/
+
+#work-bottom-row {
+  height: 550px;
+  background: #ff0000;
+  text-align: center;
+}
+
+#work-bottom-row .full-width {
+  padding: 90px 0 0 0;
+}
+
+#work-bottom-row  img {
+  width: 350px;
+  padding-bottom: 30px;
+}
+
+#work-bottom-row h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  width: 350px;
+  margin: 0 auto;
+  padding: 25px 0 0 0;
+  color: #ffffff;
+}
+
+#brent {
+  text-transform: uppercase;
+}
+
+#work-bottom-row a {
+  text-decoration: none;
+  color: white;
+}
+
+#work-bottom-row a:visited {
+  color: white;
+}
+
+#work-bottom-row p {
+  font-family: 'Work Sans', serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 10px 35px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  height: 650px;
+  background: #ffffff;
+  color: white;
+  margin: 20px 0 -100px 0;
+}
+
+#lets-make {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 39px;
+  padding-left: 50px;
+  color: #000000;
+}
+
+#magic {
+  color: #ff0000;
+  font-family: 'Pacifico', sans-serif;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+#period {
+  font-family: "Montserrat", sans-serif;
+  color: #ff0000;
+}
+
+.two-thirds-width {
+  width: 700px;
+  height: 370px;
+  margin: 0 0 0 60px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    padding: 20px 0 0 50px;
+    clear: both;
+    float: left;
+    width: 50%;
+}
+
+label, option, input, textarea, select {
+  color: #000000;
+}
+
+#eric-email {
+  margin: 30px 0 0 140px;
+  float: left;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+#eric-highlight {
+  color: #000000;
+}
+
+#social-media-contact {
+  margin: 0 0 0 103px;
+  clear: both;
+}
+
+#social-media-contact li{
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 33px;
+}
+
+/***** FOOTER *****/
+
+#footer {
+  height: 200px;
+  background-color: #000000;
+  clear: both;
+}
+
+#footer h2 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 30px 0 0 0px;
+  padding-top: 20px;
+  float: left;
+}
+
+#my-services {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  margin: auto 0;
+  font-weight: lighter;
+  float: left;
+  padding: 0 0 5px 0;
+  text-decoration: none;
+}
+
+#footer a, li {
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+#footer ul {
+  clear: both;
+}
+
+#footer li {
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: auto 0;
+  color: #ffffff;
+}
+
+#footer-nav {
+  float: right;
+  margin-right: 40px;
+}
+
+#footer-nav li{
+  font-size: 15px;
+  display: inline-block;
+  margin: 30px 0 0 0;
+  padding: 40px 0 0 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.social-media-bottom {
+  clear: both;
+  float: left;
+  margin: -60px 0 20px 900px;
+}
+
+.social-media-bottom li {
+  display: inline-block;
+  padding: 0 0 20px 33px;
+}
+
